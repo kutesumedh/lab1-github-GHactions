@@ -3,7 +3,7 @@ name: Repo  Name Print and Student Username Print
 on:
   push:
     paths:
-      - 'D:\PracticeDev\lab1-github-GHactions\student_note.md'  # Trigger only if this file is updated
+      - 'student_note.md'  # Trigger only if this file is updated
 
 jobs:
   print-info:
